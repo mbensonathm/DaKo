@@ -1,0 +1,36 @@
+# 
+# Satzaufbau:
+#
+# 01 Messungstyp als String
+# 02 Implementierungstyp als String
+# 03 Anzahl Client-Threads
+# 04 Anzahl (geplante) Nachrichten je Client
+# 05 Durchschnittliche RTT
+# 06 Maximale RTT
+# 07 Minimale RTT
+# 08 Durchschnittliche Serverbearbeitungszeit
+# 09 Anzahl geplanter Requests/Responses
+# 10 Anzahl gesendeter Requests
+# 11 Anzahl empfangener Responses
+# 12 Anzahl verlorener Echo Responses
+# 13 Anzahl aller Uebertragungswiederholungen (nur fuer UDP relevant)
+# 14 Maximale Heap-Size des Clients
+# 15 Startzeit der Messung
+# 16 Endezeit der Messung
+#
+
+Variation der Threadanzahl, Multi-threaded UDP, 100, 100, 4, 6, 1, 0, 10000, 10000, 10000, 0, 0, 130, 19.8.2014 12:3:48, 19.8.2014 12:3:59
+Variation der Threadanzahl, Multi-threaded UDP, 1000, 100, 50, 106, 4, 0, 100000, 100000, 99970, 30, 2298, 741, 19.8.2014 12:4:8, 19.8.2014 12:4:19
+Variation der Threadanzahl, Multi-threaded UDP, 1000, 100, 14, 63, 1, 0, 100000, 100000, 99977, 23, 555, 675, 19.8.2014 12:5:29, 19.8.2014 12:5:48
+Variation der Threadanzahl, Multi-threaded TCP, 100, 100, 1, 2, 0, 0, 10000, 10000, 10000, 0, 0, 38, 19.8.2014 15:13:42, 19.8.2014 15:13:53
+Variation der Threadanzahl, Multi-threaded UDP, 100, 100, 4, 5, 2, 0, 10000, 10000, 10000, 0, 0, 47, 19.8.2014 15:14:30, 19.8.2014 15:14:41
+Variation der Threadanzahl, Multi-threaded UDP, 500, 100, 313, 410, 133, 0, 50000, 50000, 49879, 121, 5500, 750, 19.8.2014 15:15:30, 19.8.2014 15:16:31
+Variation der Threadanzahl, Multi-threaded UDP, 500, 100, 326, 486, 101, 0, 50000, 50000, 49999, 1, 5615, 775, 19.8.2014 15:17:40, 19.8.2014 15:18:37
+Variation der Threadanzahl, Multi-threaded UDP, 500, 100, 692, 1198, 55, 0, 50000, 50000, 49779, 221, 17875, 794, 19.8.2014 15:21:16, 19.8.2014 15:23:18
+Variation der Threadanzahl, Multi-threaded UDP, 500, 100, 868, 1788, 99, 0, 50000, 50000, 49972, 28, 14451, 821, 19.8.2014 15:24:34, 19.8.2014 15:27:34
+Variation der Threadanzahl, Multi-threaded UDP, 1, 100, 602, 602, 602, 0, 100, 100, 100, 0, 0, 519, 19.8.2014 15:51:52, 19.8.2014 15:52:53
+Variation der Threadanzahl, Multi-threaded UDP, 5, 100, 2953, 2997, 2895, 0, 500, 500, 500, 0, 0, 801, 19.8.2014 15:53:13, 19.8.2014 15:58:15
+Variation der Threadanzahl, Multi-threaded UDP, 10, 100, 2, 2, 2, 0, 1000, 1000, 1000, 0, 0, 40, 20.8.2014 9:54:18, 20.8.2014 9:54:29
+Variation der Threadanzahl, Multi-threaded UDP, 1000, 100, 364, 693, 2, 0, 100000, 100000, 97746, 2254, 24355, 627, 20.8.2014 9:54:37, 20.8.2014 9:56:13
+Variation der Threadanzahl, Multi-threaded UDP, 10, 100, 24, 60, 0, 0, 1000, 1000, 1000, 0, 12, 33, 22.8.2014 9:35:1, 22.8.2014 9:35:8
+Variation der Threadanzahl, Multi-threaded TCP, 10, 100, 0, 0, 0, 0, 1000, 1000, 1000, 0, 0, 30, 22.8.2014 9:35:8, 22.8.2014 9:35:8
