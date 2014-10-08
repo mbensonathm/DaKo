@@ -1,5 +1,5 @@
 package edu.hm.dako.echo.benchmarking;
-So ein Scheiss, zu Testen
+
 import edu.hm.dako.echo.client.ClientFactory;
 import edu.hm.dako.echo.connection.ConnectionFactory;
 import edu.hm.dako.echo.common.CpuUtilisationWatch;
