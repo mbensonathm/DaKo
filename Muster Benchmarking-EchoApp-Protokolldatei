@@ -1,0 +1,23 @@
+# 
+# Satzaufbau:
+#
+# 01 Messungstyp als String
+# 02 Implementierungstyp als String
+# 03 Anzahl Client-Threads
+# 04 Anzahl (geplante) Nachrichten je Client
+# 05 Durchschnittliche RTT
+# 06 Maximale RTT
+# 07 Minimale RTT
+# 08 Durchschnittliche Serverbearbeitungszeit
+# 09 Anzahl geplanter Requests/Responses
+# 10 Anzahl gesendeter Requests
+# 11 Anzahl empfangener Responses
+# 12 Anzahl verlorener Echo Responses
+# 13 Anzahl aller Uebertragungswiederholungen (nur fuer UDP relevant)
+# 14 Maximale Heap-Size des Clients
+# 15 Startzeit der Messung
+# 16 Endezeit der Messung
+#
+Variation der Threadanzahl, Multi-threaded UDP, 100, 100, 4, 6, 1, 0, 10000, 10000, 10000, 0, 0, 130, 19.8.2014 12:3:48, 19.8.2014 12:3:59
+Variation der Threadanzahl, Multi-threaded UDP, 1000, 100, 50, 106, 4, 0, 100000, 100000, 99970, 30, 2298, 741, 19.8.2014 12:4:8, 19.8.2014 12:4:19
+Variation der Threadanzahl, Multi-threaded UDP, 1000, 100, 14, 63, 1, 0, 100000, 100000, 99977, 23, 555, 675, 19.8.2014 12:5:29, 19.8.2014 12:5:48

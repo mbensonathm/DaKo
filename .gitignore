@@ -1,0 +1,26 @@
+/logs
+*.log
+out
+bin/**
+
+echoApplication/Benchmarking-EchoApp-Protokolldatei
+
+#Eclipse
+
+#IntelliJ
+.idea/
+*.iml
+*.iws
+
+#Misc
+tmp/**
+tmp/**/*
+*.swp
+.loadpath
+.metadata
+.launch
+.buildpath
+
+#Mac OS
+.DS_Store
+/bin
