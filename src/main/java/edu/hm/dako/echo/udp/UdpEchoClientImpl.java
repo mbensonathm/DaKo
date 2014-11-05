@@ -10,7 +10,10 @@ import edu.hm.dako.echo.client.AbstractClient;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import java.net.DatagramPacket;
 import java.net.SocketTimeoutException;
+import java.io.*;
+
 
 /**
  * Erzeugt fuer einen Client-Thread ein UDP-Socket ueber den eine logische Verbindung 
@@ -42,7 +45,22 @@ public class UdpEchoClientImpl extends AbstractClient {
     public void run() {
 
   	  //TODO:Studienarbeit - Methode ab hier vervollstaendigen
-    	
+    	Thread.currentThread().setName("Client-Thread" + clientNumber);
+    	try{
+    		waitForOtherClients();
+    		localPort = 0;
+    		UdpClientConnectionFactory fac = new UdpClientConnectionFactory();
+    		connection = fac.connectToServer(remoteServerAddress, serverPort, localPort, 5000, 5000);
+    		for (int i = 0; i < numberOfMessagesToSend; i++) {
+                try {
+                    doEcho(i);
+                } catch (SocketTimeoutException e) {
+                   log.debug(e.getMessage());
+                }
+            }
+        } catch (Exception e) {
+            ExceptionHandler.logExceptionAndTerminate(e);
+    	}
     
         //Testausgabe      
         System.out.println("Anzahl aller Mehrfachsendungen von Thread: " + 
@@ -66,7 +84,9 @@ public class UdpEchoClientImpl extends AbstractClient {
   	
     	// RTT-Startzeit ermitteln
     	long rttStartTime = System.nanoTime();
-  
+    	sharedData.incrSentMsgCounter(clientNumber);
+    	connection.send(constructEchoPDU(i));
+    	connection.receive(responseTimeout);
     	//TODO:Studienarbeit - Methode ab hier vervollstaendigen
     	
     	

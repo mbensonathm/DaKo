@@ -34,3 +34,8 @@ Variation der Threadanzahl, Multi-threaded UDP, 10, 100, 2, 2, 2, 0, 1000, 1000,
 Variation der Threadanzahl, Multi-threaded UDP, 1000, 100, 364, 693, 2, 0, 100000, 100000, 97746, 2254, 24355, 627, 20.8.2014 9:54:37, 20.8.2014 9:56:13
 Variation der Threadanzahl, Multi-threaded UDP, 10, 100, 24, 60, 0, 0, 1000, 1000, 1000, 0, 12, 33, 22.8.2014 9:35:1, 22.8.2014 9:35:8
 Variation der Threadanzahl, Multi-threaded TCP, 10, 100, 0, 0, 0, 0, 1000, 1000, 1000, 0, 0, 30, 22.8.2014 9:35:8, 22.8.2014 9:35:8
+Variation der Threadanzahl, Multi-threaded TCP, 10, 100, 4, 5, 4, 4, 1000, 1000, 1000, 0, 0, 8, 16.10.2014 16:4:44, 16.10.2014 16:4:55
+Variation der Threadanzahl, Multi-threaded TCP, 100, 1000, 10, 16, 5, 7, 100000, 100000, 100000, 0, 0, 143, 16.10.2014 16:14:8, 16.10.2014 16:16:14
+Variation der Threadanzahl, Multi-threaded TCP, 10, 100, 4, 5, 4, 2, 1000, 1000, 1000, 0, 0, 11, 4.11.2014 12:34:55, 4.11.2014 12:35:56
+Variation der Threadanzahl, Multi-threaded TCP, 10, 100, 7, 8, 6, 4, 1000, 1000, 1000, 0, 0, 8, 4.11.2014 13:2:50, 4.11.2014 13:2:52
+Variation der Threadanzahl, Multi-threaded UDP, 10, 100, 0, 0, 0, 0, 1000, 0, 0, 0, 0, 0, 5.11.2014 11:22:6, 5.11.2014 11:43:49
